@@ -129,10 +129,7 @@ svg{
 /*  Content Styling  */
 /*********************/
 
-.img-wrapper{
-    
-    
-}
+
 .album-img{
     height: 30%;
     width: 100%;
@@ -147,4 +144,39 @@ svg{
 .caption{
     font-size: 16px;
     text-align: center;
+}
+.img-profile {
+    display: inline-block;
+}
+
+.img-wrap {
+    display: inline-block;
+    position: relative;
+    background-color: whitesmoke;
+}
+
+.img-wrap:hover .img-profile {
+    opacity: 0.3;
+}
+
+.img-wrap .hover-div {
+    display: none;
+    position: absolute;
+    text-align: center;
+    bottom: 5;
+    left: 5;
+    margin-top: -10px;
+    z-index: 10;
+    /* width of image container */
+}
+
+.img-wrap:hover .hover-div {
+    display: inline-block;
+}
+
+.hover-links{
+    color: dimgray;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 10px;
 }
