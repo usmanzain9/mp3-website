@@ -1,0 +1,208 @@
+body{
+    background-color: gainsboro;
+}
+
+/** Header Styling **/
+.logo{
+    height: 70px;
+    width: 170px;
+}
+.navbar-brand{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.btn-top{
+    border-radius: 0px;
+    margin-right: 5px;
+    margin-left: 5px;
+    background-color: #528F8B !important;
+    border: 0px;
+    color: white;
+    font-family: 'Open Sans' , sans-serif;
+}
+.navbar-first{
+    background-color: #E7462E !important;
+}
+.container{
+    padding-top: 15px;
+
+}
+form{
+    margin-bottom: 0px !important;
+}
+.inputfield{
+    margin-right: 20px
+}
+.navbar-second{
+    background-color: white !important;
+}
+.searchbtn{
+    background-color: #528F8B;
+    color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: 'Open Sans' , sans-serif;
+}
+.input-group-addon{
+    background-color: #E7462E;
+    color: white;
+}
+.nav-wrapper{
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-bottom: 20px;
+}
+ul{
+    list-style-type: none;
+    padding: 0px;
+}
+a{
+    text-decoration: none !important;
+}
+
+/** Content Styling **/
+
+.album-img-cont{
+    height: 150px;
+    width: 150px;
+    float: left;
+    margin-right: 20px;
+}
+.album-img{
+    height: 100%;
+    width: 100%;
+    
+}
+.song-info{
+    float: left;
+}
+hr{
+}
+@media(max-width: 360px){
+    .album-img, .album-img-cont{
+        float: none;
+        margin: auto;margin-bottom: 10px;
+            
+    }
+    .song-info{
+        float: none;
+        text-align: center;
+    }
+}
+.search-result-div{
+    display: block;
+}
+.categories-head{
+    height: 40px;
+    background-color: #B7B8B6;
+    display: block;
+    color: white;
+    padding-top: 5px;
+    padding-left: 15px;
+    font-family: 'Montesrrat', sans-serif;
+}
+ul{
+    list-style-type: none;
+    padding: 0px;
+}
+.li-sidebar{
+    border-bottom: 1px solid #E6E6E6;
+    border-left: 1px solid #E6E6E6;
+    border-right: 1px solid #E6E6E6;
+    padding: 9px 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a{
+    text-decoration: none !important;
+}
+.li-sidebar:hover{
+    background-color: #E6E6E6;
+}
+
+/** Footer Styling **/
+
+.footer{
+    height: 70px;
+    margin-bottom: 20px;
+    background: #E7462E !important;
+    font-family: 'Open Sans' , sans-serif;
+}
+@media (max-width: 991px){
+    .pding{
+        padding-left: 22px;
+        padding-right: 22px;
+    }
+}
+@media (min-width:992px){
+    .pding{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+@media (min-width:1200px){
+    .pding{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+svg{
+    height: 30px;
+    width: 30px;
+    margin-left: 5px;
+
+}
+.madeby{
+    padding-left: 20px;
+    margin-top: 5px;
+    color: white;
+}
+.madeby2{
+    padding-left: 10px;
+    margin-top: 5px;
+    color: white;
+}
+.social{
+    float: left;
+    font-size: 32px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.fb{
+    color: #3B5998;
+}
+.tw{
+    color: #00ACED;
+}
+@media(max-width:492px){
+    .madeby2{
+        font-size: 12px;
+    }
+    .madeby{
+        font-size: 12px;
+    }
+    svg{
+        height: 25px;
+        width: 25px;
+    }
+    .footer{
+        height: 50px;
+    }
+}
+@media(max-width:385px){
+    .madeby2{
+        font-size: 11px;
+    }
+    .madeby{
+        font-size: 11px;
+    }
+    svg{
+        height: 25px;
+        width: 25px;
+    }    
+}
+.margin{
+    margin-top: 20px;
+    padding-top: 20px;
+    background-color: white;
+}
