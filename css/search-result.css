@@ -76,6 +76,10 @@ a{
 .song-info{
     float: left;
 }
+.row-wrapper{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 hr{
 }
 @media(max-width: 360px){
